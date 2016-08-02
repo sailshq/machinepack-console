@@ -10,7 +10,7 @@ module.exports = {
   extendedDescription: 'The message will be written to stdout.',
 
 
-  cacheable: false,
+  sideEffects: 'idempotent',
 
 
   sync: true,
