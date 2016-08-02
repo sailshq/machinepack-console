@@ -12,7 +12,7 @@
   ],
   "author": "The Treeline Company",
   "license": "MIT",
-  "dependencies":{
+  "dependencies": {
     "machine": "^12.3.0"
   },
   "devDependencies": {
@@ -21,6 +21,9 @@
   "machinepack": {
     "friendlyName": "Console",
     "machineDir": "machines/",
-    "machines": []
+    "machines": [
+      "log",
+      "error"
+    ]
   }
 }
