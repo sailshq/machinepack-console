@@ -1,6 +1,6 @@
 {
   "name": "machinepack-console",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Work with the console/terminal.  Supports logging text output and reading user input via interactive prompts.",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
