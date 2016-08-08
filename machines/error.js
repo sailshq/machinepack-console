@@ -10,7 +10,7 @@ module.exports = {
   extendedDescription: 'The message will be written to stderr.',
 
 
-  sideEffects: 'idempotent',
+  sideEffects: 'cacheable',
 
 
   sync: true,
