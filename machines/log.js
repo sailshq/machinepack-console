@@ -1,13 +1,10 @@
 module.exports = {
 
 
-  friendlyName: 'Log message',
+  friendlyName: 'Log to stdout',
 
 
-  description: 'Output a message to the console.',
-
-
-  extendedDescription: 'The message will be written to stdout.',
+  description: 'Output a message to stdout (standard output).',
 
 
   sideEffects: 'cacheable',
@@ -19,7 +16,7 @@ module.exports = {
   inputs: {
 
     value: {
-      description: 'The value that will be written to the console.',
+      description: 'The value that will be written to stdout.',
       example: '==='
     }
 

@@ -1,13 +1,10 @@
 module.exports = {
 
 
-  friendlyName: 'Log error',
+  friendlyName: 'Log to stderr',
 
 
-  description: 'Output an error message to the console.',
-
-
-  extendedDescription: 'The message will be written to stderr.',
+  description: 'Output a message to stderr (standard error).',
 
 
   sideEffects: 'cacheable',
@@ -19,7 +16,7 @@ module.exports = {
   inputs: {
 
     value: {
-      description: 'The value that will be written to the console.',
+      description: 'The value that will be written to stderr.',
       example: '==='
     }
 
