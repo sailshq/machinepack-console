@@ -7,6 +7,9 @@ module.exports = {
   description: 'Output a message to stdout (standard output).',
 
 
+  extendedDescription: 'Note that a newline will be automatically appended to the message.',
+
+
   sideEffects: 'cacheable',
 
 
@@ -17,7 +20,8 @@ module.exports = {
 
     value: {
       description: 'The value that will be written to stdout.',
-      example: '==='
+      example: '===',
+      required: true
     }
 
   },
